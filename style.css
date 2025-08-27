@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-grn-light-color{
+    color: hsl(158, 36%, 37%);
+}
+
+.bg-grn-light-color{
+    background-color: hsl(158, 36%, 37%);
+}
+
+.letter-spacing{ letter-spacing: 3px; }
+
+.font-frau{ font-family: 'Fraunces'; }
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+}
+
+.bg-white{ background-color: hsl(0, 0%, 100%); }
+
+.f-white{ color: hsl(0, 0%, 100%)}
+
+.container{ width: 700px !important; }
+
+button:hover{ background-color: hsl(158, 42%, 18%); }
+
+@media screen and (max-width: 767px){
+    .container {
+        width: 85% !important;
+        margin-top: 10%;
+        margin-bottom: 10%;  
+    }
+
+    img.rounded-start-4{
+        border-radius: 16px 16px 0px 0px !important;
+    }
+
+    div> div.col-md-6:last-child{
+        padding: 10% !important;
+    }
+}
